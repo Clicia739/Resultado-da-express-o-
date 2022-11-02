@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+   <p>
+   	<u>
+   		<b>A</b>
+   	</u>
+   </p>
+
+   <h2>6 + 20 - 12 * 2</h2>
+   <hr/>
+	<button onclick="calcularEx1()">Calcular Ex 1</button>
+	<section id="result1">
+		<hr/>
+		<p>O resultado é aqui</p>
+	</section>
+   <hr/>
+	<script type="text/javascript">
+		function calcularEx1() {
+	         let equacao = 6 + 20 - 12 * 2
+				let resultado = window.document.getElementById("result1");
+			   resultado.innerHTML = `<p> ${equacao}</p>`;
+		}
+
+  </script>
+
+   <p>
+   	<u>
+   		<b>B</b>
+   	</u>
+   </p>
+
+	<h2>30/(10+(2+3))</h2>
+   <hr/>
+	<button onclick="calcularEx2()">Calcular Ex 2</button>
+	<section id="result2">
+	<hr/>
+		<p>O resultado é aqui</p>
+	</section>
+   <hr/>
+	<script type="text/javascript">
+		function calcularEx2() {
+	         let equacao = 30 / (10 + (2 + 3))
+				let resultado = window.document.getElementById("result2");
+			   resultado.innerHTML = `<p> ${equacao}</p>`;
+		}
+
+	</script>
+
+   <p>
+   	<u>
+   		<b>C</b>
+   	</u>
+   </p>
+
+	<h2>((18 + 3 * 2) / 8 + 5 * 3) / 6</h2>
+   <hr/>
+	<button onclick="calcularEx3()">Calcular Ex 3</button>
+	<section id="result3">
+	<hr/>
+		<p>O resultado é aqui</p>
+	</section>
+    <hr/> 
+	<script type="text/javascript">
+		function calcularEx3() {
+	         let equacao = ((18 + 3 * 2) / 8 + 5 * 3) / 6
+				let resultado = window.document.getElementById("result3");
+			   resultado.innerHTML = `<p> ${equacao}</p>`;
+		}
+
+	</script>
+
+   <p>
+   	<u>
+   		<b>D</b>
+   	</u>
+   </p>
+
+	<h2>((64 - 16 * 4) + (48 * 10 - 180))*5</h2>
+   <hr/>
+	<button onclick="calcularEx4()">Calcular Ex 4</button>
+	<section id="result4">
+	<hr/>
+		<p>O resultado é aqui</p>
+	</section>
+    <hr/>
+	<script type="text/javascript">
+		function calcularEx4() {
+	         let equacao = ((64 - 16 * 4) + (48 * 10 - 180)) *5
+				let resultado = window.document.getElementById("result4");
+			   resultado.innerHTML = `<p> ${equacao}</p>`;
+		}
+
+	</script>
+
+   <p>
+   	<u>
+   		<b>E</b>
+   	</u>
+   </p>
+
+	<h2>(((8 * 4 + 3) / 7 + (3 + 15 / 5) * 3] * 2 - (19 - 7) / 6) * 2 + 12</h2>
+   <hr/>
+	<button onclick="calcularEx5()">Calcular Ex 5</button>
+	<section id="result5">
+	<hr/>
+		<p>O resultado é aqui</p>
+	</section>
+    <hr/>
+	<script type="text/javascript">
+		function calcularEx5() {
+	         let equacao = (((8 * 4 + 3) / 7 + (3 + 15 / 5) * 3) * 2 - (19 - 7) / 6) * 2 + 12
+				let resultado = window.document.getElementById("result5");
+			   resultado.innerHTML = `<p> ${equacao}</p>`;
+		} 
+
+	</script>
+</body>
+</html>
