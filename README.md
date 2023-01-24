@@ -1,11 +1,13 @@
-# Resultado-da-express-o-aula-de-js
-Tecnologias
+# Eexpress-javascript.
+## Tecnologias
 Projeto desenvolvido com as seguintes tecnologias:
 
-HTML
-JavaScript
+- HTML
+- JavaScript
+- Git
+- Github
 
-Projeto
+### Projeto
 Desenvolvi com javascript html contedo calcular as expressões.
 
 
